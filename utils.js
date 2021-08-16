@@ -1,4 +1,4 @@
-export function countsAsAYes(){
-    if (answer1.charAt(0).toLowerCase () === 'y') correctAnswers++;
-    console.log(correctAnswers)
-  }
+export function countsAsAYes(answerOne){
+return answerOne.charAt(0).toLowerCase() === 'y';
+}
+

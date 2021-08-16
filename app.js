@@ -15,8 +15,12 @@ button.addEventListener('click', ()=> {
 
     if (!wantsToContinue) return; 
 
-    const answer1 = prompt('question 1');
-    if (countsAsAYes) correctAnswers++;
+    const answerOne = prompt('question 1');
+    // if (countsAsAYes) correctAnswers++;
+      if (answerOne.charAt(0).toLowerCase() === 'y') correctAnswers++;
+
+
+
     console.log(correctAnswers);
 });
 
