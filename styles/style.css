@@ -70,3 +70,14 @@ ol{
     padding-right:30px;
     border-radius:10px;
 }
+button {
+    font-family: 'Space Mono' monospace;
+    background-color:rgba(46, 49, 49, 1);
+    color:white;
+    border-radius: 10px;
+    font-size:2rem;
+}
+
+button :hover{
+    cursor: pointer;
+}
