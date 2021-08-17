@@ -32,6 +32,8 @@ button.addEventListener('click', () => {
 
     alert(`Well done ${firstName}.
   Tabulating results...`);
+
+
     complete.textContent = `Congratulations, ${firstName} you got ${correctAnswers} out of 3 questions!`;
 });
 

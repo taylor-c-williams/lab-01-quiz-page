@@ -11,7 +11,7 @@ html {
 }
 
 body {
-	background-image: url("/assets/background.jpg");
+	background-image: url("./assets/background.jpg");
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
 	background-attachment: fixed;
@@ -31,13 +31,6 @@ i {
 	display: inline-block;
 }
 
-em {
-	font-style: italic;
-}
-
-header {
-	display: flex;
-	justify-content: center;
 	align-items: center;
 	font-family: "Space Mono", monospace;
 	font-size: 5rem;
