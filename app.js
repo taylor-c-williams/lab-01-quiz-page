@@ -29,7 +29,9 @@ button.addEventListener('click', ()=> {
     if (countsAsAYes(answer3)) correctAnswers++;
 
     console.log(correctAnswers);
-    complete.textContent = correctAnswers;
+
+    alert('Your results are in.')
+    complete.textContent = `Okay, ${firstName} you got ${correctAnswers} out of 3!`;
 });
 
 
